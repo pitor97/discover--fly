@@ -72,7 +72,7 @@ nav ul li a:hover, a.active{
     margin-top: 10px;
     word-spacing: 20px;
     border-style: none;
-    background-color: white;
+    
 }
 .booking-form  .calculations{
     margin: 10px 0;
@@ -122,3 +122,6 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+/*  #plus-minus-btn{
+    display: flex;
+} */
