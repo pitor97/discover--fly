@@ -122,6 +122,7 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
-/*  #plus-minus-btn{
-    display: flex;
-} */
+#confirmation-area{
+    display: none;
+color: #2dbb20bf;
+}

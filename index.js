@@ -37,3 +37,11 @@ function calculateTotal() {
   const totalAmount = totalTaka + vat;
   document.getElementById("total-amount").innerText = "$" + totalAmount;
 }
+
+const bookingBtn = document.getElementById("booking-button");
+bookingBtn.addEventListener("click", function () {
+  const mainPage = document.getElementById("main-page");
+  mainPage.style.display = "none";
+  const confirmationMessage = document.getElementById("confirmation-area");
+  confirmationMessage.style.display = "block";
+});
